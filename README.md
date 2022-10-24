@@ -32,22 +32,22 @@ This project is about to create a R Markdown report mainly about exploring
 ------------------------------------------------------------------------
 # Table
 
-Generate codes from `01_make_table1.R` to create summary statistics table.
-This table include alive and dead status in terms of Grade, Race, Marital Status and Estrogen Status using overall number, percentage as well as p values.
+- Generate codes from `01_make_table1.R` to create summary statistics table.
+- This table include alive and dead status in terms of Grade, Race, Marital Status and Estrogen Status using overall number, percentage as well as p values.
 ------------------------------------------------------------------------
 
 # Figures
 
-1.Create four histograms about patients’ status among 4 interested variables: age, race, marital status and estrogen status (will explore more variables later). 
-  -Codes are from `02_make_figure1.R` `03_make_figure2.R` `04_make_figure3.R` `05_make_figure4.R`
+1. Create four histograms about patients’ status among 4 interested variables: age, race, marital status and estrogen status (will explore more variables later). 
+- Codes are from `02_make_figure1.R` `03_make_figure2.R` `04_make_figure3.R` `05_make_figure4.R`
 
-2.For Figure5, the histogram is generated from `06_make_figure5.R` and suggets that women ages between 45 to 65 are most suffer from Brest Cancer.
+2. For Figure5, the histogram is generated from `06_make_figure5.R` and suggets that women ages between 45 to 65 are most suffer from Brest Cancer.
 
-3.For Figure6, It shows that patients in Grade 4 stage of breast cancer has bigger sized tumour compair to Grade 1,2 and 3.
-  -Codes are from `07_make_figure6.R`
+3. For Figure6, It shows that patients in Grade 4 stage of breast cancer has bigger sized tumour compair to Grade 1,2 and 3.
+- Codes are from `07_make_figure6.R`
 
-Codes Logic are similar since I use gglot2 package.
-One example for my code:
+- Codes Logic are similar since I use gglot2 package.
+- One example for my code:
 
 ```r
 library(ggplot2)
